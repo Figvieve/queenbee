@@ -1,0 +1,145 @@
+ul {
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #FCF3CF;
+  text-align: center;
+  padding: 25px 22px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #424949;
+    color: #B7950B;
+}
+
+.active {
+  background-color: #17202A;
+    color: #B7950B;
+}
+
+
+body {
+  text-align: left;
+color:#17202A;
+font-size: 17px;
+    font-family:"palatino linotype",serif;}
+
+
+.img-container {text-align:left;}
+
+
+
+h1 {text-align:left;
+color:#515A5A ;
+font-size: 35px;
+    font-family:"palatino linotype",serif;}
+
+
+/* Zoom In #2 */
+.hover02 figure img {
+	width:650px; 
+    height:400px;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover02 figure:hover img {
+	width:660px; 
+    height:410px;
+}
+/* Zoom In #2 */
+.hover03 figure img {
+	width:700px;
+    height:470px;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover03 figure:hover img {
+	width:710px;
+    height:480px;
+}
+
+
+/* Rotate */
+.hover06 figure img {
+	-webkit-transform: rotate(15deg) scale(1.4);
+	transform: rotate(15deg) scale(1.4);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover06 figure:hover img {
+	-webkit-transform: rotate(0) scale(1);
+	transform: rotate(0) scale(1);
+}
+p.padding {
+  padding-bottom:2cm;
+    
+}
+
+h3  {text-align:center;}
+
+p.padding2 {
+  padding-bottom:1cm;
+}
+
+p.padding3 {
+  padding-left:2cm;
+}
+p.padding4 {
+  padding-top:1cm;
+    padding-left:2cm;
+}
+
+p.padding5 {
+
+    padding-left:1.3cm;
+}
+
+p.padding6 {
+
+    padding-left:1cm;
+}
+p.padding8 {
+
+    padding-left:5cm;
+    padding-top: 1cm;
+    
+}
+p.padding9 {
+
+    padding-left:9cm;
+    padding-top: 1cm; 
+}
+
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color:#D4AC0D;
+  color: #17202A;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color:#FCF3CF;
+}

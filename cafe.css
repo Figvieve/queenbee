@@ -1,0 +1,120 @@
+ul {
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #FCF3CF;
+  text-align: center;
+  padding: 25px 22px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #424949;
+    color: #B7950B;
+}
+
+.active {
+  background-color: #17202A;
+    color: #B7950B;
+}
+
+
+body {
+  text-align: left;
+color:#17202A;
+font-size: 17px;
+    font-family:"palatino linotype",serif;}
+
+
+
+
+
+.img-container {text-align: center;}
+
+h1 {text-align: center;
+color:#515A5A ;
+font-size: 35px;
+    font-family:"palatino linotype",serif;}
+
+
+p.padding {
+  padding-bottom:1cm;
+}
+
+p.padding2 {
+  padding-top:1cm;
+}
+
+p.padding7 {
+  padding-right:2cm;
+}
+
+p.padding3 {
+  padding-bottom:2cm;
+}
+
+p.padding4 {
+  padding-top:1cm;
+}
+
+p.padding5 {
+  padding-left:1cm;
+}
+p.padding6 {
+  padding-top:1cm;
+}
+
+/* Zoom In #2 */
+.hover02 figure img {
+	width:700px;
+    height:450px;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover02 figure:hover img {
+	width:710px;
+    height:460px;
+}
+
+    
+h2 {text-align: center;
+color:#F8F9F9;
+font-size: 30px;
+font-family:"palatino linotype",serif;
+background-color: #424949;
+  padding-top: 1cm;
+  padding-bottom:1cm;
+  padding-right: 30px;
+  padding-left: 80px;}
+    
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color:#D4AC0D;
+  color: #17202A;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color:#FCF3CF;
+}

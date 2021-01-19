@@ -1,0 +1,152 @@
+ul {
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #FCF3CF;
+  text-align: center;
+  padding: 25px 22px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #424949;
+    color: #B7950B;
+}
+
+.active {
+  background-color: #17202A;
+    color: #B7950B;
+}
+
+
+body {
+  text-align: left;
+color:#17202A;
+font-size: 17px;
+    font-family:"palatino linotype",serif;}
+
+.img-container {text-align: center;}
+
+h1 {text-align: center;
+color:#424949 ;
+font-size: 35px;
+    font-family:"palatino linotype",serif;}
+
+h2 {text-align: center;
+color:#FCF3CF ;
+font-size: 30px;
+    font-family:"palatino linotype",serif;}
+
+h5 {text-align: center;
+color:#424949 ;
+font-size: 20px;
+    font-family:"palatino linotype",serif;}
+
+h4 {text-align: center;
+color:#424949 ;
+font-size: 20px;
+    font-family:"palatino linotype",serif;}
+p.padding {
+  padding-bottom:1cm;
+    
+}
+
+p.padding1 {
+  padding-top:1cm;
+    
+}
+
+p.padding2 {
+  padding-left:1cm;
+    
+}
+
+p.padding4 {
+  padding-left:5cm;
+    
+}
+
+p.padding3 {
+  padding-left:4cm;
+    
+}
+p.padding5 {
+  padding-left:2cm; 
+}
+    
+    p.padding6 {
+  padding-top:1cm;
+    
+}
+     p.padding7 {
+  padding-top:1cm;
+        }
+p.padding8 {
+  padding-left:1cm;
+        }
+p.padding9 {
+ 
+    padding-top:1cm;
+        }
+
+
+
+
+
+
+.accordion {
+  background-color: #424949;
+  color: #FCF3CF ;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #17202A ; 
+    color: #FCF3CF;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color:#D4AC0D;
+  color: #17202A;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color:#FCF3CF;
+}
