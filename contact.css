@@ -136,6 +136,7 @@ input[type=text], select, textarea {
   margin-bottom: 16px;
   resize: vertical;
     text-align: left;
+    align-content: left;
 }
 
 .form1 
@@ -148,6 +149,7 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
    text-align: center;
+    align-content: left;
 }
 .form1
 input[type=submit]:hover {
@@ -161,9 +163,14 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
     text-align: left;
+    align-content: left;
+    
     
     
 }
+
+
+
 
 /* for the contact form */
 
