@@ -46,7 +46,11 @@ p.padding6 {
     height: 20%;
   }
   
-
+p2 {
+  text-align: left;
+color:#17202A;
+font-size: 17px;
+    font-family:"palatino linotype",serif;}
 
 body {
   text-align: left;
@@ -55,6 +59,9 @@ font-size: 17px;
     font-family:"palatino linotype",serif;}
 
 .img-container {text-align: center;}
+
+
+
 
 /* Rotate */
 .hover06 figure img {
@@ -127,7 +134,10 @@ font-size: 30px;
 
 }
 
-
+.flex-center1 {
+  display: flex;
+  justify-content: center;
+}
 
 
 p.ex1 {
@@ -142,41 +152,61 @@ p.ex1 {
   background-clip: content-box;
 }
    
-p.padding {
-  padding-top:3cm;
+p.padding11 {
+  padding-top:2cm;
 }
 
 
 
-h6 {text-align: center;
+h10 {text-align: center;
 color:#EAEDED ;
-font-size: 16px;
+font-size: 17px;
     font-family:"palatino linotype",serif;}
 
+h12 {
+color:#EAEDED ;
+font-size: 17px;
+    font-family:"palatino linotype",serif;}
 
-
-p.padding3 {
-  padding-bottom:2cm;
+p.padding41 {
+  padding-left:1cm;
+  
 }
-
-
-p.padding4 {
+p.padding110 {
   padding-left:2cm;
-    padding-bottom: 1cm;
+  
 }
+p.padding42 {
+  padding-top:0.5cm;
+  padding-left:1cm; 
+    
+}
+
+
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
 footer {
   text-align: center;
   color: black;
     font-size: 15px;
 }
 
-p.padding7 {
+p.padding71 {
   padding-top:1cm;
 }
 
-p.padding8 {
+p.padding81 {
   padding-right:4cm;
 }
+
+p.padding91 {
+  padding-bottom:1cm;
+}
+
 form {
 
   font-family: "palatino linotype",serif;
@@ -184,10 +214,15 @@ form {
     text-align: center;
 }
 
-.container2 {
+.container10 {
   align-content: center;
     text-align: center;
  
+}
+
+.container2 {
+  align-content: center;
+    text-align: center;
 }
 
 input[type=text], input[type=submit] {
@@ -202,8 +237,6 @@ input[type=text], input[type=submit] {
     
 }
 
-
-
 input[type=submit] {
   background-color: #F9E79F ;
   color: #424949;
@@ -213,35 +246,36 @@ input[type=submit] {
     text-align: center;
     
 }
-
 input[type=submit]:hover {
   opacity: 0.8;
 }
 
 
 /* Zoom In #2 */
-.hover02 figure img {
+.hover021 figure img {
 	width:100px;
     height:100px;
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
-.hover02 figure:hover img {
+.hover021 figure:hover img {
 	width:110px;
     height:110px;
 }
 
 /* Zoom In #2 */
-.hover03 figure img {
+.hover031 figure img {
 	width:50px;
     height:50px;
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
-.hover03 figure:hover img {
+.hover031 figure:hover img {
 	width:56px;
     height:56px;
 }
+
+
 
 #myBtn {
   display: none;

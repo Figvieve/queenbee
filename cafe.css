@@ -37,6 +37,11 @@ font-size: 17px;
     font-family:"palatino linotype",serif;}
 
 
+.container3{
+  text-align: center;
+color:#17202A;
+font-size: 25px;
+    font-family:"palatino linotype",serif;}
 
 
 
@@ -99,6 +104,147 @@ background-color: #424949;
   padding-left: 80px;}
     
 
+.division1 {
+  margin: 25px 25px 25px 100px;
+  text-align: center;
+}
+
+
+p.ex1 {
+  margin-bottom: 50px;
+}
+
+
+#endpage {
+
+  padding: 40px;
+  background: #424949;
+  background-clip: content-box;
+}
+   
+p.padding11 {
+  padding-top:2cm;
+}
+
+
+
+h10 {text-align: center;
+color:#EAEDED ;
+font-size: 17px;
+    font-family:"palatino linotype",serif;}
+
+h12 {
+color:#EAEDED ;
+font-size: 17px;
+    font-family:"palatino linotype",serif;}
+
+p.padding41 {
+  padding-left:1cm;
+  
+}
+p.padding110 {
+  padding-left:2cm;
+  
+}
+p.padding42 {
+  padding-top:0.5cm;
+  padding-left:1cm; 
+    
+}
+
+
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  text-align: center;
+  color: black;
+    font-size: 15px;
+}
+
+p.padding71 {
+  padding-top:1cm;
+}
+
+p.padding81 {
+  padding-right:4cm;
+}
+
+p.padding91 {
+  padding-bottom:1cm;
+}
+
+form {
+
+  font-family: "palatino linotype",serif;
+    align-content: center;
+    text-align: center;
+}
+
+.container10 {
+  align-content: center;
+    text-align: center;
+ 
+}
+
+.container2 {
+  align-content: center;
+    text-align: center;
+}
+
+input[type=text], input[type=submit] {
+  align-content: center;
+  width: 20%;
+  padding: 5px;
+  margin: 8px 0;
+  display:inline-block;
+  box-sizing: border-box;
+    align-content: center;
+    text-align: center;
+    
+}
+
+input[type=submit] {
+  background-color: #F9E79F ;
+  color: #424949;
+  border: none;
+   width: 20%; 
+    align-content: center;
+    text-align: center;
+    
+}
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+
+/* Zoom In #2 */
+.hover021 figure img {
+	width:100px;
+    height:100px;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover021 figure:hover img {
+	width:110px;
+    height:110px;
+}
+
+/* Zoom In #2 */
+.hover031 figure img {
+	width:50px;
+    height:50px;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover031 figure:hover img {
+	width:56px;
+    height:56px;
+}
+
 #myBtn {
   display: none;
   position: fixed;
@@ -118,3 +264,10 @@ background-color: #424949;
 #myBtn:hover {
   background-color:#FCF3CF;
 }
+
+footer {
+  text-align: center;
+  color: black;
+    font-size: 15px;
+}
+
